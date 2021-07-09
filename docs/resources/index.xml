@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>遊戲內資源相關 on LIHKG Gwent Guide</title>
-    <link>http://example.org/resources/</link>
+    <link>https://regunakyle.github.io/LIHKG-Gwent-guide/resources/</link>
     <description>Recent content in 遊戲內資源相關 on LIHKG Gwent Guide</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://example.org/resources/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://regunakyle.github.io/LIHKG-Gwent-guide/resources/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

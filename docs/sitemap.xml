@@ -2,27 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/faq/</loc>
+    <loc>https://regunakyle.github.io/LIHKG-Gwent-guide/faq/</loc>
   </url><url>
-    <loc>http://example.org/resources/</loc>
+    <loc>https://regunakyle.github.io/LIHKG-Gwent-guide/resources/</loc>
   </url><url>
-    <loc>http://example.org/deckbuilding/</loc>
+    <loc>https://regunakyle.github.io/LIHKG-Gwent-guide/deckbuilding/</loc>
   </url><url>
-    <loc>http://example.org/premium/</loc>
+    <loc>https://regunakyle.github.io/LIHKG-Gwent-guide/premium/</loc>
   </url><url>
-    <loc>http://example.org/gameplay/</loc>
+    <loc>https://regunakyle.github.io/LIHKG-Gwent-guide/gameplay/</loc>
   </url><url>
-    <loc>http://example.org/ladderranking/</loc>
+    <loc>https://regunakyle.github.io/LIHKG-Gwent-guide/ladderranking/</loc>
   </url><url>
-    <loc>http://example.org/others/</loc>
+    <loc>https://regunakyle.github.io/LIHKG-Gwent-guide/others/</loc>
   </url><url>
-    <loc>http://example.org/metainfo/</loc>
+    <loc>https://regunakyle.github.io/LIHKG-Gwent-guide/metainfo/</loc>
   </url><url>
-    <loc>http://example.org/</loc>
+    <loc>https://regunakyle.github.io/LIHKG-Gwent-guide/</loc>
     <priority>0</priority>
   </url><url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://regunakyle.github.io/LIHKG-Gwent-guide/categories/</loc>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://regunakyle.github.io/LIHKG-Gwent-guide/tags/</loc>
   </url>
 </urlset>
