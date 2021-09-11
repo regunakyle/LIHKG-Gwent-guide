@@ -1,28 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://regunakyle.github.io/LIHKG-Gwent-guide/faq/</loc>
-  </url><url>
+  </url>
+  <url>
     <loc>https://regunakyle.github.io/LIHKG-Gwent-guide/resources/</loc>
-  </url><url>
+  </url>
+  <url>
     <loc>https://regunakyle.github.io/LIHKG-Gwent-guide/deckbuilding/</loc>
-  </url><url>
+  </url>
+  <url>
     <loc>https://regunakyle.github.io/LIHKG-Gwent-guide/paidcontent/</loc>
-  </url><url>
+  </url>
+  <url>
     <loc>https://regunakyle.github.io/LIHKG-Gwent-guide/gameplay/</loc>
-  </url><url>
+  </url>
+  <url>
     <loc>https://regunakyle.github.io/LIHKG-Gwent-guide/ladderranking/</loc>
-  </url><url>
+  </url>
+  <url>
     <loc>https://regunakyle.github.io/LIHKG-Gwent-guide/others/</loc>
-  </url><url>
+  </url>
+  <url>
     <loc>https://regunakyle.github.io/LIHKG-Gwent-guide/metainfo/</loc>
-  </url><url>
-    <loc>https://regunakyle.github.io/LIHKG-Gwent-guide/</loc>
-    <priority>0</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://regunakyle.github.io/LIHKG-Gwent-guide/categories/</loc>
-  </url><url>
+  </url>
+  <url>
     <loc>https://regunakyle.github.io/LIHKG-Gwent-guide/tags/</loc>
   </url>
 </urlset>

@@ -111,6 +111,17 @@ function initMermaid() {
     }
 }
 
+function scrollToActiveMenu() {
+    window.setTimeout(function(){
+        var e = $("#sidebar ul.topics li.active")[0];
+        if( e && e.scrollIntoView ){
+            e.scrollIntoView({
+                block: 'center',
+            });
+        }
+    }, 200);
+}
+
 // Get Parameters from some url
 var getUrlParameter = function getUrlParameter(sPageURL) {
     var url = sPageURL.split('?');
@@ -207,10 +218,10 @@ $(window).resize(function() {
 
 })(jQuery, 'smartresize');
 
-
 jQuery(function() {
     restoreTabSelections();
     initMermaid();
+    scrollToActiveMenu();
 
     jQuery('#sidebar .category-icon').on('click', function() {
         $( this ).toggleClass("fa-angle-down fa-angle-right") ;
@@ -265,18 +276,22 @@ jQuery(function() {
             $('ul.topics').removeClass('searched');
             items.css('display', 'block');
             sessionStorage.removeItem('search-value');
+            $("mark").parents(".expand-marked").removeClass("expand-marked");
             $(".highlightable").unhighlight({ element: 'mark' })
             return;
         }
 
         sessionStorage.setItem('search-value', value);
+        $("mark").parents(".expand-marked").removeClass("expand-marked");
         $(".highlightable").unhighlight({ element: 'mark' }).highlight(value, { element: 'mark' });
+        $("mark").parents(".expand").addClass("expand-marked");
 
         if (ajax && ajax.abort) ajax.abort();
 
         jQuery('[data-search-clear]').on('click', function() {
             jQuery('[data-search-input]').val('').trigger('input');
             sessionStorage.removeItem('search-input');
+            $("mark").parents(".expand-marked").removeClass("expand-marked");
             $(".highlightable").unhighlight({ element: 'mark' })
         });
     });
@@ -303,6 +318,7 @@ jQuery(function() {
     }
 
     $(".highlightable").highlight(sessionStorage.getItem('search-value'), { element: 'mark' });
+    $("mark").parents(".expand").addClass("expand-marked");
 
     // clipboard
     var clipInit = false;
@@ -337,6 +353,7 @@ jQuery(function() {
                 clipInit = true;
             }
 
+            code.addClass('copy-to-clipboard-inline');
             code.after('<span class="copy-to-clipboard" title="Copy to clipboard" />');
             code.next('.copy-to-clipboard').on('mouseleave', function() {
                 $(this).attr('aria-label', null).removeClass('tooltipped tooltipped-s tooltipped-w');
@@ -510,7 +527,12 @@ jQuery(function() {
 
     // loop through the sessionStorage and see if something should be marked as visited
     for (var url in sessionStorage) {
-        if (sessionStorage.getItem(url) == 1) jQuery('[data-nav-id="' + url + '"]').addClass('visited');
+        if (sessionStorage.getItem(url) == 1){
+            // in case we have `relativeURLs=true` we have to strip the
+            // relative path to root
+            url = url.replace( /\.\.\//g, '/' ).replace( /^\/+\//, '/' );
+            jQuery('[data-nav-id="' + url + '"]').addClass('visited');
+        }
     }
 });
 
