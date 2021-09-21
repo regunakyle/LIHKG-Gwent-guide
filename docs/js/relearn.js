@@ -104,7 +104,7 @@ function initMermaid() {
         $(element).parent().replaceWith('<div class="mermaid" align="center">' + content + '</div>');
     });
 
-    if (mermaid) {
+    if (typeof mermaid != 'undefined') {
         mermaid.mermaidAPI.initialize( Object.assign( {}, mermaid.mermaidAPI.getSiteConfig(), { startOnLoad: true } ) );
         mermaid.contentLoaded();
         $(".mermaid svg").svgPanZoom({})
@@ -139,7 +139,7 @@ var getUrlParameter = function getUrlParameter(sPageURL) {
 };
 
 // Execute actions on images generated from Markdown pages
-var images = $("div#body-inner img").not(".inline");
+var images = $("main#body-inner img").not(".inline");
 // Wrap image inside a featherlight (to get a full size view in a popup)
 images.wrap(function(){
     var image =$(this);
@@ -520,7 +520,7 @@ jQuery(function() {
     });
 
     $('a[rel="lightbox"]').featherlight({
-        root: 'section#body'
+        root: 'div#body'
     });
 
     sessionStorage.setItem(jQuery('body').data('url'), 1);
@@ -538,7 +538,7 @@ jQuery(function() {
 
 jQuery.extend({
     highlight: function(node, re, nodeName, className) {
-        if (node.nodeType === 3 && node.parentElement.namespaceURI == 'http://www.w3.org/1999/xhtml') { // text nodes
+        if (node.nodeType === 3 && node.parentElement && node.parentElement.namespaceURI == 'http://www.w3.org/1999/xhtml') { // text nodes
             var match = node.data.match(re);
             if (match) {
                 var highlight = document.createElement(nodeName || 'span');
