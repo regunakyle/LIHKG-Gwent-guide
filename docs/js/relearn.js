@@ -188,16 +188,7 @@ images.each(function(index){
 $(window).resize(function() {
     setMenuHeight();
 });
-// for the sticky header
-$(window).scroll(function() {
-    // add shadow when not in top position
-    if ($(this).scrollTop() == 0) {
-        $('#top-bar').removeClass("is-sticky");
-    }
-    else {
-        $('#top-bar').addClass("is-sticky");
-    }
-});
+
 // debouncing function from John Hann
 // http://unscriptable.com/index.php/2009/03/20/debouncing-javascript-methods/
 (function($, sr) {
@@ -503,6 +494,9 @@ jQuery(function() {
 
         $(document).ready($.proxy(anchorScrolls, 'init'));
     })(window.document, window.history, window.location);
+
+    // Stick the top to the top of the screen when    scrolling
+    jQuery("#top-bar").sticky({topSpacing:0, zIndex: 1000});
 
     // Add link button for every
     var text, clip = new ClipboardJS('.anchor');
