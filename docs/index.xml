@@ -6,5 +6,165 @@
     <description>Recent content on LIHKG Gwent Guide</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-HK</language><atom:link href="https://regunakyle.github.io/LIHKG-Gwent-guide/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>常見問題</title>
+      <link>https://regunakyle.github.io/LIHKG-Gwent-guide/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://regunakyle.github.io/LIHKG-Gwent-guide/faq/</guid>
+      <description>Q. 昆特同其他卡牌遊戲比有咩特別？ A. 昆特既特別之處有：
+1. 福利極多：新手唔洗課金都可以玩得好開心。
+CDPR 係出左名既佛心；昆特牌係市面上福利數一數二最多既電子卡牌遊戲。
+零課玩家如果認真玩，一個月內絕對可以砌到一副主流卡組。
+2. 昆特冇費用系統，而且唔係每回合開始抽牌。
+昆特唔係又一隻爐石或 MTGA 複製品，玩法獨特既同時又不失其深度。
+昆特唔會出現因為唔夠費而有牌打唔出，又或者大優勢時比對手神抽逆轉既情況。
+因為冇得每回合補牌，所以每小局開始就要運籌帷幄，技術要求（及回報）較高。
+3. 卡畫質素係所有電子卡牌遊戲既頂峰。
+CDPR 做美術最比心機，睇下昆特既廣告就知。（仲有Arena 廣告同Beta 廣告，值得一睇）
+昆特卡畫超高質，而且每一張卡都有動畫版，有聲有畫面，應該係業界第一。
+4. 昆特未有退環境，所以唔洗驚啲卡以後唔用得。
+昆特總監 Jason Slama 講左 2020 年內唔會有退環境，之後亦會盡力避免。
+而家卡池尚淺，CDPR 太約每半年就會出一個擴展包。
+ Q. 新手應該玩咩模式？ A. 新手要直接打 Ranked（即標準／Standard）。
+標準模式多人玩，而且 較易搵到同你水平相近既對手。
+賽季活動（Seasonal Event） 係歡樂模式，類似爐石大亂鬥，都幾多人玩，想做任可以呢到做。
+另外仲有個 非排位（Unranked） 模式。要去訓練（Training）模式揀對陣玩家（Versus Player）先入到。
+唔推薦新手玩呢個，因為呢個模式少人玩，又多牛鬼蛇神（有機會撞到職業玩家 ）。
+ Q. 新手玩咩陣營好？ A. 陣營有六個：- 北方領域（Northern Realms／NR）- 松鼠黨（Scoia’tael／ST）- 怪獸（Monsters／MO）- 尼弗迦德（Nilfgaard／NG；又稱帝國）- 史凱利格（Skellige／SK；又稱群島）- 辛迪加（Syndicate／SY；新陣營）建議新手玩松鼠黨／北方／怪獸／群島，呢幾個較易上手。唔太推薦新手直接玩帝國。帝國雖然好玩，但要玩得好就要有一定遊戲理解。極不推薦新手直接玩辛迪加，因為較難上手，而且卡組成本較高。（新手開波係一張辛迪加卡都冇） Q.</description>
+    </item>
+    <item>
+      <title>遊戲內資源相關</title>
+      <link>https://regunakyle.github.io/LIHKG-Gwent-guide/resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://regunakyle.github.io/LIHKG-Gwent-guide/resources/</guid>
+      <description>Q. 遊戲內點賺資源？ A. 資源分四種（下圖左至右）：
+獎勵點（Reward Point）、礦石（Ore）、碎片（Scrap）、星塵（Meteorite Powder）。
+ 獎勵點用黎開獎勵冊（Reward Book）；礦石用黎買桶；碎片用黎合卡；星塵用黎整閃卡／買飾品。
+昆特既資源獎勵主要以 獎勵點 形式發放。賺取資源方式如下：
+1.每日登錄獎勵
+2.升級獎勵
+每升一級送 1 獎勵點。
+每個星期三上午 7 點到星期四上午 7 點係昆特日（Gwentsday），有 25%經驗值加成。
+3.旅程（Journey）升級獎勵（旅程進度計算器）
+遊戲內每獲 1 小勝 （三盤兩勝既小勝） 就獲得 1 皇冠點數（Crown Points／CP）。
+儲齊 24 皇冠點數就可升級，並獲得相應獎勵。
+如果你有高階旅程通行證（Premium Pass）就可獲更多獎勵。
+每星期會出 3 個皇冠任務（有 Premium Pass 就再多 3 個），做完即送 20 皇冠點數。
+皇冠任務要 按先後次序做，但可以儲埋做，而且冇時限（除左旅程本身既時限）。
+另外，每日頭 14 小勝 會額外獎勵 1 皇冠點數（Well-rested bonus），每日上午 8 點重置。
+（例如：6 小勝=6*2=12 皇冠點數；14 小勝=14*2=28 皇冠點數；18 小勝=14*2+4=32 皇冠點數）
+（更多資訊）1. 賺取皇冠點數有上限：一個星期最多賺350皇冠點數。（每星期四重置）留意Well-rested bonus同皇冠任務提供既額外皇冠點數唔計入呢個上限。所以就算你到左上限都可以繼續用Well-rested bonus同埋做任務賺皇冠點數。2.</description>
+    </item>
+    <item>
+      <title>砌卡組相關</title>
+      <link>https://regunakyle.github.io/LIHKG-Gwent-guide/deckbuilding/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://regunakyle.github.io/LIHKG-Gwent-guide/deckbuilding/</guid>
+      <description>營地： 昆特卡牌大全（中英卡查）
+昆特既卡有四類：單位（Unit），特殊（Special），神器（Artifact），戰術（Stratagem）。
+單位牌同神器牌打出後會留係場上，佔用戰場空間；特殊牌唔會留場，打出後送去墓地。
+戰術牌會係第一小局開始時自動出現於 先手方 場上。任何卡組都必定有一張戰術牌。
+每一張卡（除左戰術牌）既 右下角 都有一個數字，呢個數字代表張卡既 人口（Provision Cost）。愈勁既卡 人口 數愈高。
+ 砌卡組時有 人口 限制（150 ＋領袖技能額外提供），你副卡組每一張牌既 人口 加埋唔可以超過呢個上限。
+ 如上圖，如果用 Fruits of Ysgith 做領袖技能，咁副卡組就最多容納 161（=150+11） 人口，如用 Blood Scent 就 165（=150+15） 人口，如此類推。
+一副卡組最少 25 張卡（可以多過 25，但 非常不推薦），最少 13 張單位牌。
+一副卡組只能有本陣營卡或中立卡，例如怪獸 卡組只可以有怪獸 卡同中立卡。
+昆特總監 Jason 教你砌 Deck
+ Q. 去咩網抄卡組? A. 記住抄卡組需謹慎。睇清楚自己抄緊啲乜，抄完要識玩。
+新手切勿同 META 作對，要抄就抄 T1/T2。
+（抄之前請先睇下文章既發佈時間，META 通常每個月頭轉變一次）
+旅法師營地
+Team Leviathan: Meta Snapshot</description>
+    </item>
+    <item>
+      <title>課金/單人模式相關</title>
+      <link>https://regunakyle.github.io/LIHKG-Gwent-guide/paidcontent/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://regunakyle.github.io/LIHKG-Gwent-guide/paidcontent/</guid>
+      <description>Q. 新手課咩最好？ A. Premium Pass ＋（特價時既）單人模式 Thronebreaker ＋ 陣營包 ＋ 新手包。
+如果等到 Thronebreaker 半價，課齊以上四樣約需 200 港元。
+留意手機版同 PC 課金用既貨幣唔同，實際價格可能有少少出入。
+ Q. Thronebreaker 係咩黎？ A. Thronebreaker（中譯「王權的隕落」） 係一隻獨立於昆特既單機遊戲。
+遊戲講述萊里亞及利維亞女王米薇既故事。傑洛特都有出場，不過只有一次 遊戲內戰鬥以昆特牌形式進行。如果認真玩，大約需要兩三日爆機。
+個人認為 Puzzle 同 Special Rule 戰鬥值得一玩。遊戲難度唔高，開到最難都係輕鬆玩。
+呢個遊戲講故為主。如果你對 Witcher 故事感興趣既話，呢個遊戲就岩你。
+如果打唔贏／唔想打，可以先較最低難度，然後入戰鬥＞投降＞ Skip Battle。
+Thronebreaker 有繁體中文同普通話配音。
+  Q. 買 Thronebreaker 有咩野送？ A. Thronebreaker 既回報係：
+ 買完即送既 5 個閃桶 買完即送既 Thronebreaker 普卡（值 2030 碎片） 只能在遊戲內開寶箱獲得 既 Thronebreaker 閃卡 全成就 一共 56 獎勵點 一堆頭像／邊框／稱號 一隻單機遊戲。  56 獎勵點最少都可以換約 2800 礦。如果運用得當可賺更多。</description>
+    </item>
+    <item>
+      <title>遊戲玩法相關</title>
+      <link>https://regunakyle.github.io/LIHKG-Gwent-guide/gameplay/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://regunakyle.github.io/LIHKG-Gwent-guide/gameplay/</guid>
+      <description>Team Aretuza: 新手玩法教學
+Q. 有咩要注意既細節？ A. 有好多，諗到乜講乜：
+1. 遊戲時，可以按右下自己卡組睇入面仲有咩卡。
+要留意卡組係 唔按順序 展示出黎。
+2. 每行最多放 9 張卡。
+單位／神器／ 先手 戰術牌（Stratagem） 全部會佔位置。玩鋪場卡組時尤其要注意。
+3. 如果你當回合未出牌，但用左場上既指令（Order）或領袖技能，咁你就必須打出一張牌。
+所以用指令（Order）／領袖技能／先手戰術牌（Stratagem）之前要諗清楚。
+一用左就冇得 Pass，必須出牌。
+4. 可以主動將手牌放入墓地（唔會觸發棄牌效果）。
+咁做當你出左牌，可以結束回合。呢招有時有決定性作用。
+另外，如果你燒完繩都未出牌，系統就會隨機丟棄你一張手牌。
+5. 平局下雙方各加一小勝。
+所以如果你輸左 R1，R2 再平局，你就會輸（二比一）。
+6. 特別既卡牌效果介紹
+ Shupe&#39;s Day Off（店店的大冒險）If your starting deck has no duplicates, send Shupe on an adventure.若己方起始牌組沒有重複牌，則派“店店”去冒險。實際效果：如果玩家起始卡組（即卡組編輯器內的卡組構成，與使用此卡當下的卡組情況無關）內沒有重複卡，玩家先從 法師（Mage）／獵人（Hunter）／騎士（Knight） 三者之中擇一。系統從所選類型的五種效果中隨機選出三個效果。玩家從三個效果中擇一，最後打出店店並觸發所選效果。（註：長按卡片會彈出卡片效果介面，可從中找到效果一覽） Knickers（褲襠）This unit may raid the battlefield to aid you in battle.</description>
+    </item>
+    <item>
+      <title>天梯/排位相關</title>
+      <link>https://regunakyle.github.io/LIHKG-Gwent-guide/ladderranking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://regunakyle.github.io/LIHKG-Gwent-guide/ladderranking/</guid>
+      <description>昆特排位模式下有 31 個 Rank，最低 Rank 30，最高 Rank 0（即 Pro Rank）。
+每個 Rank 由 5 塊頭像碎片組成，組成一個完整頭像後再獲一塊頭像碎片即可升 Rank。
+贏就獲得一塊碎片，輸就失去碎片，詳情如下：
+   Rank 失去碎片數     30-26 輸 唔扣 頭像碎片   25-15 每連輸兩場 扣一頭像碎片   14-1 每輸一場 扣一頭像碎片    雖然輸會扣頭像碎片，但唔會跌 Rank，最多扣到當前 Rank 既頭像碎片冇曬。
+於 Rank 30-8 連贏三場就會進入 連勝：連勝 下每贏一場可獲 兩塊 頭像碎片。
+平局唔會扣頭像碎片或取消 連勝。
+ 一個賽季結束後，所有 打過至少一場 Rank 既玩家都會獲得獎勵點。 獲得幾多就由你當季 Rank 決定：
+   Rank 獲得獎勵點     30-26 5   25-15 7   14-8 10   7-1 15   0（Pro） 25     Q.</description>
+    </item>
+    <item>
+      <title>其他</title>
+      <link>https://regunakyle.github.io/LIHKG-Gwent-guide/others/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://regunakyle.github.io/LIHKG-Gwent-guide/others/</guid>
+      <description>Q. 有咩實況主推薦？ A. Twitch 昆特台（連結 Twitch 帳號獲取獎勵）：
+CDPR Official（比賽／開發者直播要呢到睇。睇比賽前記得要連結 Twitch 帳號）
+Burza46（昆特牌社群經理既台，開發者直播有機會係呢到播）
+Spyro_ZA（開台時間穩定，Pro Rank 排前頭，有整Youtube教學片）
+Shinmiri2（燒繩怪，會詳細解釋打牌思路）
+TheaBeasty（（ ͡° ͜ʖ ͡°））
+大陸：
+Wangid（職業玩家，攞過公開賽冠軍）
+Garigari（係大陸昆特牌圈幾出名）
+當然仲有好多其他實況主未被列出，要靠你自己去搵岩你既台。
+（PC Only）Twitch台改善觀看體驗安裝瀏覽器插件BetterTTV。安裝前：安裝後（留意聊天室多左大量Emote）：如果有Twitch帳號，登入後按右上角自己頭像會彈出一列野，入面可以搵到BTTV設定。呢個唔止睇昆特有用：基本上外國既實況主全部都會用BetterTTV既Emote。 Q. 有冇觀戰模式？ A. 冇。出左四年以上既遊戲到而家都未有觀戰而家有錦標賽模式，可以係遊戲內搞比賽+觀戰。
+好友觀戰就貌似要等到 2021 2077 年。
+ Remember me?    Q. 邊到搵客服？ A. 呢到。英文唔得既話可以上連登求助 又或者寫英文電郵去pc_gwent@cdprojektred.com。
+ Q. 點解昆特咁好玩都唔係好多人玩？ A. 卡牌遊戲呢家野本身已經屬小眾，昆特仲要係比較硬核果類，宣傳又少，自然少人玩。
+其實昆特都曾經輝煌過，重製前 Twitch 昆特台每日最高同時觀眾數可以有 2000 人以上。
+可惜因為各種各樣既事（Midwinter／Homecoming／Artifact），令唔少實況主同玩家退左坑。
+宜家昆特已經穩定落黎，出左手機版之後多左好多新玩家。希望昆特愈做愈好啦。
+（返回快速導覽）
+ 其他相關網站： Discord：台灣昆特牌討論群組
+Youtube：The Great Dandelion Show （搞笑時刻集錦）</description>
+    </item>
+    <item>
+      <title>關於本指南</title>
+      <link>https://regunakyle.github.io/LIHKG-Gwent-guide/metainfo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://regunakyle.github.io/LIHKG-Gwent-guide/metainfo/</guid>
+      <description>感謝你閱讀本指南！ 如果你發現任何錯處或想提出建議，請往 Github 創建Issue。
+ 鳴謝： 本指南使用Hugo寫成，並使用了Hugo Relearn Theme作基底。
+ 授權 本指南遵循「署名-相同方式共享 4.0 國際」協議。
+轉載請註明出處。
+ Version History    Version Date Comment     2.0 10 Jul 2021 Migrated the guide from Google Doc to Github Page   1.5 4 Apr 2020 Contented edited with respect to Journey expansion   1.4 7 Jan 2020 Ongoing event section added   1.3 9 Dec 2019 Content edited with respect to Merchants of Ofir expansion   1.</description>
+    </item>
   </channel>
 </rss>
