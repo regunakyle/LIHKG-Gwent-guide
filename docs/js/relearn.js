@@ -104,10 +104,10 @@ function initMermaid() {
         $(element).parent().replaceWith('<div class="mermaid" align="center">' + content + '</div>');
     });
 
-    if (typeof mermaid != 'undefined') {
+    if (typeof mermaid != 'undefined' && typeof mermaid.mermaidAPI != 'undefined') {
         mermaid.mermaidAPI.initialize( Object.assign( {}, mermaid.mermaidAPI.getSiteConfig(), { startOnLoad: true } ) );
         mermaid.contentLoaded();
-        $(".mermaid svg").svgPanZoom({})
+        $(".mermaid svg").svgPanZoom({});
     }
 }
 
@@ -148,7 +148,8 @@ images.wrap(function(){
     // IF featherlight is false, do not use feather light
     if (f != 'false') {
         if (!image.parent("a").length) {
-            return "<a href='" + image[0].src + "' data-featherlight='image'></a>";
+            var html = $( "<a>" ).attr("href", image[0].src).attr("data-featherlight", "image").get(0).outerHTML;
+            return html;
         }
     }
 });
@@ -188,7 +189,16 @@ images.each(function(index){
 $(window).resize(function() {
     setMenuHeight();
 });
-
+// for the sticky header
+$(window).scroll(function() {
+    // add shadow when not in top position
+    if ($(this).scrollTop() == 0) {
+        $('#top-bar').removeClass("is-sticky");
+    }
+    else {
+        $('#top-bar').addClass("is-sticky");
+    }
+});
 // debouncing function from John Hann
 // http://unscriptable.com/index.php/2009/03/20/debouncing-javascript-methods/
 (function($, sr) {
@@ -495,19 +505,14 @@ jQuery(function() {
         $(document).ready($.proxy(anchorScrolls, 'init'));
     })(window.document, window.history, window.location);
 
-    // Stick the top to the top of the screen when    scrolling
-    jQuery("#top-bar").sticky({topSpacing:0, zIndex: 1000});
-
     // Add link button for every
     var text, clip = new ClipboardJS('.anchor');
     $("h1~h2,h1~h3,h1~h4,h1~h5,h1~h6").append(function(index, html){
         var element = $(this);
         var url = encodeURI(document.location.origin + document.location.pathname);
         var link = url + "#"+element[0].id;
-        return " <span class='anchor' data-clipboard-text='"+link+"'>" +
-            "<i class='fas fa-link fa-lg'></i>" +
-            "</span>"
-        ;
+        var html = " " + $( "<span>" ).addClass("anchor").attr("data-clipboard-text", link).append("<i class='fas fa-link fa-lg'></i>").get(0).outerHTML;
+        return html;
     });
 
     $(".anchor").on('mouseleave', function(e) {

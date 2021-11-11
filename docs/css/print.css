@@ -8,6 +8,10 @@ body #body{
 pre code {
     font-size: 8.3pt;
 }
+#body .padding {
+    /* remove page padding - this can be set exactly in the print setup */
+    padding: 0;
+}
 code.copy-to-clipboard-inline {
     border-bottom-right-radius: 2px;
     border-top-right-radius: 2px;
@@ -36,6 +40,21 @@ pre {
 .copy-to-clipboard {
     display: none;
 }
+
+#body h1, #body h2, #body h3, #body h4, #body h5, #body h6 {
+    /* better contrast for colored elements */
+    color: black !important;
+}
+#body th, #body td,
+#body code, #body strong, #body b,
+#body li, #body dd, #body dt,
+#body p,
+#body .anchor,
+#body a {
+    /* better contrast for colored elements */
+    color: black;
+}
+
 .progress {
     /* we don't need this while printing */
     display: none !important;
@@ -73,12 +92,21 @@ hr{
 }
 #top-bar{
     /* the header is sticky which is not suitable for print; */
-    box-shadow: initial;
     position: inherit; /* IE11 doesn't know "initial" here */
+}
+#top-bar.is-sticky {
+    box-shadow: initial;
 }
 #body .tab-nav-button:not(.active) {
     opacity: .5;
 }
 #head-tags {
     display: none;
+}
+mark {
+    background: inherit;
+    color: inherit;
+}
+.mermaid > svg:hover {
+    border-color: transparent;
 }
